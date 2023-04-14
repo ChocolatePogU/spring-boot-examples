@@ -5,8 +5,9 @@ import org.springframework.context.annotation.Profile;
 
 @Profile("prod")
 public class ProductionOnlyConfiguration {
-	@Bean
-	public String dummy() {
-		return "something";
-	}
+
+    @Bean
+    public String dummy() {
+        return "something";
+    }
 }
